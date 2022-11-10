@@ -2,6 +2,14 @@
 @section('title', 'All Class')
 
 @section('content')
+    <form class="row g-3 search" action="" method="GET">
+        <div class="col-auto">
+            <input type="search" class="form-control name" placeholder="Search Name" name="name">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3 btn-confirm">Confirm identity</button>
+        </div>
+    </form>
     <table class="table">
         <thead class="thead-dark">
             <tr>
@@ -46,13 +54,4 @@
         </tr>
         </tbody>
     </table>
-    <form class="row g-3 search" action="" method="GET">
-        <div class="col-auto">
-            <label for="inputPassword2" class="visually-hidden">Password</label>
-            <input type="search" class="form-control" placeholder="Search Name" name="name">
-        </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
-        </div>
-    </form>
 @endsection
