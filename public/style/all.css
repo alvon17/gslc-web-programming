@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kolker+Brush&family=Roboto&display=swap');
 
 html, body {
     font-family: 'Roboto', sans-serif !important;
@@ -19,7 +19,7 @@ table, .gslc{
 }
 
 table {
-    width: 80% !important;
+    width: 90% !important;
     margin: 1rem auto !important;
 }
 
@@ -42,6 +42,20 @@ table {
     margin: 10px 20px;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-to-bottom-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Bungee Spice', cursive;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .alert {
